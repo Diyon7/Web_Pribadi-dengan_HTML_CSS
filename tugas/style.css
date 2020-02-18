@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(217, 217, 255);
+    background-image: url("background.jpg");
+    transition: 0.5s ease;
+}
+.fotoku img {
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
+}
+ul {
+    margin-left: 50%;
+    margin-top: 0px;
+}
+ul li {
+    display: inline-block;
+    padding: 3px;
+}
+
+ul li a {
+    font-size: 15px;
+    width: 150px;
+    height: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: blue;
+    padding: 3px 15px;
+    border: 1px solid white;
+    transition: 0.5s ease;
+}
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+ul li.pilih a{
+    background-color: white;
+    color: black;
+}
+.utama {
+    max-width: 1500px;
+    margin: 1px;
+}
+.judul {
+    margin-left: 0%;
+    margin-top: 0px;
+}
+.judul h1 {
+    width: 139px;
+    height: 29px;
+    border: 2.5px solid black;
+    color: black;
+    font-size: 25px;
+}
+.nama {
+    position: fixed;
+    top: 30%;
+    left: 15%;
+}
+.nama h1 {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.p {
+    border-color: black;
+    border-radius: 15px 0px 15px;
+    text-align: justify;
+    position: fixed;
+    top: 39%;
+    left: 15%;
+    width: 550px;
+    height: 290px;
+    color: black;
+    font-size: 25px;
+    border: none;
+}
+th {
+    color: #ffffff;
+    background-color: #336699;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    font-size: 15pt;
+}
+td {
+    color: black;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    font-size: 9pt;
+}
+table {
+    position: fixed;
+    top: 39%;
+    left: 15%;
+    width: 900px;
+    height: 290px;
+}
+footer {
+    bottom: 100%;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+}
